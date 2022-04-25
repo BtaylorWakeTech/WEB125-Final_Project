@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Tyrell County</title>
+        
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column min-vh-100">
+       
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html"><img id="logo" src="images/tyrrell.png" alt="logo">Tyrrell County, North Carolina</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="about.html">About Tyrrell County</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Paying Your Bill</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="waterbill.html">Paying Water Bill</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Boards and Departments</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="boards.html">Boards and Committees</a></li>
+                                <li><a class="dropdown-item" href="departments.html">Departments</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="input-group" style="width: 20%">
+                    <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon" />
+                    <button type="button" class="btn btn-outline-primary">search</button>
+                  </div>
+        </nav>
+        
+       
+       <div class="views">
+        <img src="images/beach.png" class="about_images float-left" alt="beach">
+<section class="mb-4">
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Tyrrell County</h2>
+    <p class="text-center w-responsive mx-auto mb-5">If you would like to visit Tyrrell County, contact us through the form below. If any additional questions are needed, refer to all departments and boards for specific tasks or needs. Thank you!</p>
+
+    <div class="row">
+
+        <div class="col-md-9 mb-md-0 mb-5">
+            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+              
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="name" class="">Name</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="John Doe">
+                
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="md-form mb-0">
+                            <label for="email" class="">Email</label>
+                            <input type="text" id="email" name="email" class="form-control" placeholder="randomemail123@yahoo.com">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="md-form mb-0">
+                            <label for="subject" class="">What Do You Want To Know?</label>
+                            <input type="text" id="subject" name="subject" class="form-control">
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="md-form">
+                            <label for="message">Your message</label>
+                            <textarea type="text" id="message" name="message" rows="5" class="form-control md-textarea"></textarea>
+                        </div>
+
+                    </div>
+                </div>
+            </form>
+            <br>
+            <div class="text-md-left text-md-left">
+                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Submit</a>
+            </div>
+            <div class="status"></div>
+        </div>
+        <div class="col-lg-2 text-center">
+            <ul class="list-unstyled mb-0">
+                <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                    <p>203 S Ludington Dr, Columbia, NC 27925</p>
+                </li>
+                <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                    <p>+1 (252)-796-0723</p>
+                </li>
+                <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                    <p>info@visittyrrellcounty.com</p>
+                </li>
+            </ul>
+        </div>
+        
+
+    </div>
+
+</section>
+
+<footer class="mt-auto">
+            
+    <div class="d-flex align-items-end" style="background-color: rgba(58, 55, 55, 0.2);">
+        Tyrrell County © 2022 Copyright: All Rights Reserved
+        <div class="fb">
+        <a href="https://www.facebook.com/groups/620073321828442/" class="fa fa-facebook"></a>
+        </div>
+        <div class="tw">
+        <a href="https://twitter.com/tyrrellcounty" class="fa fa-twitter"></a>
+       </div>
+       </div>
+   </div>
+
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
